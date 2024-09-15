@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Consultoria acadêmica e aulas particulares de filosofia com a Professora Vitória.">
+    <title>Resolva seu Semestre Comigo</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+        
+        body {
+            font-family: 'Merriweather', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #000;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 40px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            line-height: 1.2;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #e74c3c;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 30px;
+            font-size: 1.2rem;
+        }
+        .cta-button:hover {
+            background-color: #c0392b;
+        }
+        .about, .services, .sobre-mim {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+        .about h2, .services h2, .sobre-mim h2 {
+            color: #000;
+            font-size: 2rem;
+        }
+        .about p, .sobre-mim p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        .services ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .services li {
+            background-color: #f7f7f7;
+            padding: 20px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            font-size: 1.1rem;
+        }
+        .sobre-mim {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .sobre-mim img {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #000;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        footer a {
+            color: #e74c3c;
+            text-decoration: none;
+        }
+        footer p {
+            margin: 0;
+        }
+
+        /* Estilos específicos para telas pequenas (celulares) */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            header p {
+                font-size: 1rem;
+            }
+            .cta-button {
+                font-size: 1rem;
+                padding: 12px 20px;
+            }
+            .sobre-mim {
+                flex-direction: column;
+                text-align: center;
+            }
+            .sobre-mim img {
+                width: 200px;
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Resolva seu semestre comigo</h1>
+        <p>Acabe logo com essa ansiedade e garanta que seu TCC, artigo ou projeto de pesquisa será um sucesso!</p>
+        <a href="https://profes.com.br/vitoria-flores/contratar/?package_offer=redacao_sessoes-para-discutir-seu-trabalho-academico-projetos-ic-tcc-artigo" target="_blank" class="cta-button">Eu Preciso de Ajuda Agora</a>
+    </header>
+
+    <section class="about">
+        <h2>Quem é a Professora Vitória?</h2>
+        <p>Olá, sou a Vitória, apaixonada por filosofia e educação. A filosofia não é apenas minha profissão, é minha maneira de ver o mundo e ajudar os outros a encontrar seu próprio caminho acadêmico. Estou aqui para te ajudar a superar qualquer obstáculo no seu trabalho acadêmico, seja ele um TCC, artigo ou projeto de pesquisa. Com minha experiência em filosofia e pedagogia, eu transformo seu medo em confiança e seu sonho em realidade.</p>
+        <p>Se você está se sentindo perdido, procrastinando ou com medo de não conseguir entregar seu trabalho, eu entendo. Já ajudei muitos estudantes como você, e eu sei exatamente o que fazer para tirar você desse ciclo de insegurança e te colocar no caminho certo.</p>
+    </section>
+
+    <section class="services">
+        <h2>Meus Serviços</h2>
+        <ul>
+            <li><strong>Consultoria para TCC:</strong> Se seu TCC está te deixando noites sem dormir, eu te ajudo a organizar, estruturar e revisar cada parte, até que esteja pronto para ser entregue com orgulho.</li>
+            <li><strong>Orientação para Artigos Científicos:</strong> Precisa publicar um artigo? Com minha ajuda, você vai desde a formulação do tema até a submissão em revistas acadêmicas.</li>
+            <li><strong>Projetos de Pesquisa:</strong> Criar um projeto de pesquisa que impressione sua banca e te dê a base para um trabalho sólido nunca foi tão fácil com a minha orientação.</li>
+            <li><strong>Iniciação Científica:</strong> Para quem está começando na vida acadêmica, ofereço todo o suporte para você criar um projeto de iniciação científica de alta qualidade.</li>
+            <li><strong>Aulas Particulares de Filosofia:</strong> Aulas de filosofia para todas as idades! Desde crianças curiosas, adultos em busca de uma nova perspectiva, até alunos de nível avançado que desejam aprofundar seus estudos. Seja para crescimento pessoal ou desenvolvimento acadêmico, minhas aulas são personalizadas para atender suas necessidades específicas.</li>
+        </ul>
+    </section>
+
+    <section class="lead-capture">
+        <h2>Receba uma Aula ou Consultoria Exclusiva</h2>
+        <p>Inscreva-se para receber uma aula particular de filosofia ou uma consultoria acadêmica para te ajudar a alcançar seus objetivos!</p>
+        <a href="https://api.whatsapp.com/send?phone=55999114447&text=Ol%C3%A1%2C%20tenho%20interesse%20em%20saber%20mais%20sobre%20suas%20aulas%20e%20consultorias%20acad%C3%AAmicas!" target="_blank" class="cta-button">Fale Comigo pelo WhatsApp</a>
+    </section>
+
+    <section class="sobre-mim">
+        <img src="https://i.ibb.co/wLV8SCv/3-EBD10-CA-1-D06-40-CF-B105-9-B2-BC70-FC953.jpg" alt="Professora Vitória">
+        <div>
+            <h2>Sobre Mim</h2>
+            <p>Eu sou a Professora Vitória, formada em Filosofia e atualmente cursando Pedagogia. Sou apaixonada por ensinar e acredito que a filosofia é uma ferramenta poderosa para o autoconhecimento e o desenvolvimento acadêmico. Amo ajudar meus alunos a atingirem seus objetivos acadêmicos e superar os desafios da vida universitária. Já publiquei artigos em revistas acadêmicas e adoro criar conteúdo que inspira e educa.</p>
+            <p>Com a minha orientação, você pode transformar o medo de falhar em confiança para conquistar seus sonhos acadêmicos. Não importa o tamanho do desafio, estou aqui para te ajudar a alcançar o sucesso.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Consultoria Acadêmica - Professora Vitória</p>
+        <p>Agende sua consultoria pelo <a href="https://profes.com.br/vitoria-flores/contratar/?package_offer=redacao_sessoes-para-discutir-seu-trabalho-academico-projetos-ic-tcc-artigo" target="_blank">Profes</a></p>
+    </footer>
+
+</body>
+</html>
