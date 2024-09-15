@@ -114,6 +114,35 @@
                 height: 200px;
             }
         }
+
+        /* Estilo da seção de prova social */
+        .social-proof {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 0 20px;
+            text-align: center;
+        }
+        .social-proof h2 {
+            font-size: 2rem;
+            color: #000;
+            margin-bottom: 20px;
+        }
+        .testimonial {
+            background-color: #f7f7f7;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+        .testimonial p {
+            font-size: 1.2rem;
+            color: #555;
+        }
+        .testimonial strong {
+            display: block;
+            margin-top: 10px;
+            font-size: 1.1rem;
+            color: #333;
+        }
     </style>
 </head>
 <body>
@@ -139,6 +168,22 @@
             <li><strong>Iniciação Científica:</strong> Para quem está começando na vida acadêmica, ofereço todo o suporte para você criar um projeto de iniciação científica de alta qualidade.</li>
             <li><strong>Aulas Particulares de Filosofia:</strong> Aulas de filosofia para todas as idades! Desde crianças curiosas, adultos em busca de uma nova perspectiva, até alunos de nível avançado que desejam aprofundar seus estudos. Seja para crescimento pessoal ou desenvolvimento acadêmico, minhas aulas são personalizadas para atender suas necessidades específicas.</li>
         </ul>
+    </section>
+
+    <section class="social-proof">
+        <h2>O Que Meus Alunos Dizem</h2>
+        <div class="testimonial">
+            <p>"A professora Vitória foi essencial na conclusão do meu TCC! Eu estava completamente perdido, sem saber como estruturar meu trabalho, e com a orientação dela, consegui organizar minhas ideias e apresentar um TCC que me deixou muito orgulhoso!"</p>
+            <strong>- João Silva, Bacharel em Administração</strong>
+        </div>
+        <div class="testimonial">
+            <p>"Nunca pensei que a filosofia pudesse ser tão fascinante! As aulas da professora Vitória me ajudaram a enxergar o mundo de uma forma totalmente nova. Agora, consigo aplicar o pensamento crítico em todas as áreas da minha vida!"</p>
+            <strong>- Maria Oliveira, Estudante de Filosofia</strong>
+        </div>
+        <div class="testimonial">
+            <p>"Minha iniciação científica foi um sucesso graças à ajuda da professora Vitória. Ela me guiou em cada etapa do projeto e me mostrou como estruturar minha pesquisa da maneira mais eficiente possível."</p>
+            <strong>- Lucas Andrade, Aluno de Ciências Sociais</strong>
+        </div>
     </section>
 
     <section class="lead-capture">
